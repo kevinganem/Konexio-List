@@ -16,7 +16,6 @@ import {
   StyleSheet,
   View,
   ActivityIndicator,
-  Pressable,
 } from "react-native";
 import { Card } from "react-native-elements";
 
