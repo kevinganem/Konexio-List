@@ -6,9 +6,15 @@
 // --------------------------------------------------------------------------- //
 // --------------------------------------------------------------------------- //
 
+// REACT-NATIVE
+import { SafeAreaView } from "react-native";
 // COMPONENTS
 import List from "./components/List";
 
 export default function App() {
-  return <List />;
+  return (
+    <SafeAreaView>
+      <List />
+    </SafeAreaView>
+  );
 }
